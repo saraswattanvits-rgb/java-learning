@@ -1,6 +1,7 @@
 Hello this is line number 1
 this is line number 2
 
+i am at line 4 - new change from remote
 
 this is my local changes
 
