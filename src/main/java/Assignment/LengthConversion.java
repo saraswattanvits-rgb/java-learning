@@ -1,0 +1,16 @@
+package Assignment;
+
+import java.util.Scanner;
+
+public class LengthConversion {
+    public static void main(String[] args) {
+        Scanner s1 =  new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        double length = s1.nextDouble();
+        double meters = length*0.0254 ;
+        double rounded = Math.round(meters*100.0)/100.0;
+        System.out.println(rounded);
+
+
+    }
+}
