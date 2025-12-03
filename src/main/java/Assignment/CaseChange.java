@@ -6,7 +6,7 @@ public class CaseChange {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a sentence in lowercase: ");
+        System.out.println("Enter a sentence in lowercase: ");
         String str = sc.nextLine();
 
         String[] words = str.split(" ");
@@ -20,6 +20,6 @@ public class CaseChange {
             }
         }
 
-        System.out.println("Converted String: " + result.toString().trim());
+        System.out.println("Converted String: " + result.toString());
     }
 }
