@@ -1,5 +1,6 @@
 package Assignment;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class SortingArray {
@@ -11,7 +12,11 @@ public class SortingArray {
 
         System.out.println("Enter the elements for the array: ");
         for(int i = 0; i<size; i++){
+            while (!sc.hasNextInt()){
+                System.out.println("Invalid input. Please enter a number: ");
+            }
             arr[i] = sc.nextInt();
+
         }
 
         //sort
